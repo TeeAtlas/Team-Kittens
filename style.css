@@ -1,3 +1,4 @@
+
 * {
     background:url(https://thumbs.dreamstime.com/z/three-red-cats-white-background-93789621.jpg?w=768);
     margin: 0;
@@ -24,4 +25,19 @@ body {
     border-left: 4px blue;
     padding: 50px;
     background: rgba(255, 255, 255, 0.7);
+}
+
+
+.nav_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding-left: 1rem;
+  text-indent: -0.7rem;
+}
+li::before {
+  content: "🐱 ";
 }
