@@ -1,6 +1,30 @@
 
 * {
     background:url(https://thumbs.dreamstime.com/z/three-red-cats-white-background-93789621.jpg?w=768);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0); 
+}
+
+p {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+body {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border-top: 4px blue;
+    border-right: 4px gray;
+    border-bottom: 4px gray;
+    border-left: 4px blue;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
